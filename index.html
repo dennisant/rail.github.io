@@ -255,31 +255,26 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We present the first method capable of photorealistically reconstructing a non-rigidly
-            deforming scene using photos/videos captured casually from mobile phones.
-          </p>
-          <p>
-            Our approach augments neural radiance fields
-            (NeRF) by optimizing an
-            additional continuous volumetric deformation field that warps each observed point into a
-            canonical 5D NeRF.
-            We observe that these NeRF-like deformation fields are prone to local minima, and
-            propose a coarse-to-fine optimization method for coordinate-based models that allows for
-            more robust optimization.
-            By adapting principles from geometry processing and physical simulation to NeRF-like
-            models, we propose an elastic regularization of the deformation field that further
-            improves robustness.
-          </p>
-          <p>
-            We show that <span class="dnerf">Nerfies</span> can turn casually captured selfie
-            photos/videos into deformable NeRF
-            models that allow for photorealistic renderings of the subject from arbitrary
-            viewpoints, which we dub <i>"nerfies"</i>. We evaluate our method by collecting data
-            using a
-            rig with two mobile phones that take time-synchronized photos, yielding train/validation
-            images of the same pose at different viewpoints. We show that our method faithfully
-            reconstructs non-rigidly deforming scenes and reproduces unseen views with high
-            fidelity.
+            End-to-end imitation learning (IL) has shown
+            great success in learning complex robot manipulation tasks.
+            However, there remains a need for practical safety methods to
+            justify widespread deployment. In particular, it is important
+            to certify that a system obeys hard constraints on unsafe
+            behavior in settings when it is unacceptable to design a tradeoff
+            between performance and safety via tuning the policy (i.e. soft
+            constraints). This leads to the question, how does enforcing hard
+            constraints impact the performance (meaning safely completing
+            tasks) of an IL policy? To answer this question, this paper builds
+            a reachability-based safety filter to enforce hard constraints
+            on IL, which we call Reachability-Aided Imitation Learning
+            (RAIL). Through evaluations with state-of-the-art IL policies
+            in mobile robots and manipulation tasks, we make two key
+            findings. First, the highest-performing policies are sometimes
+            only so because they frequently violate constraints, and sig-
+            nificantly lose performance under hard constraints. Second,
+            surprisingly, hard constraints on the lower-performing policies
+            can occasionally increase their ability to perform tasks safely.
+            Finally, hardware evaluation confirms the method can operate in real-time.
           </p>
         </div>
       </div>
