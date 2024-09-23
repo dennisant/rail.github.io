@@ -1,14 +1,14 @@
-# Nerfies
+# RAIL
 
-This is the repository that contains source code for the [Nerfies website](https://nerfies.github.io).
+This is the repository that contains source code for the [RAIL website](https://dennisant.github.io/rail.github.io/). 
 
-If you find Nerfies useful for your work please cite:
+If you find RAIL useful for your work, please cite:
 ```
 @article{park2021nerfies
-  author    = {Park, Keunhong and Sinha, Utkarsh and Barron, Jonathan T. and Bouaziz, Sofien and Goldman, Dan B and Seitz, Steven M. and Martin-Brualla, Ricardo},
-  title     = {Nerfies: Deformable Neural Radiance Fields},
-  journal   = {ICCV},
-  year      = {2021},
+  author    = {Jung, Wonsuhk and Anthony, Dennis and Mishra, Utkarsh and Arachchige, Nadun and Xu, Danfei and Kousik, Shreyas},
+  title     = {RAIL: Reachability-Aided Imitation Learning for Safe Policy Execution,
+  journal   = {},
+  year      = {2024},
 }
 ```
 
